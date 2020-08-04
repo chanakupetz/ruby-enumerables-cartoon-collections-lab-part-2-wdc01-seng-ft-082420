@@ -2,7 +2,6 @@ def square_array(array)
     array.map do |element|
       element * element
     end
-  array
 end
 
   # Use an Enumerable to square every element in the passed in array
