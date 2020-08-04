@@ -15,9 +15,10 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  if  planeteer_calls.any? { |element|
+  planeteer_calls.any? { |element|
     element.length > 4}
-    puts "true"
+    if true
+      puts "true"
   else
     puts "false"
 end
