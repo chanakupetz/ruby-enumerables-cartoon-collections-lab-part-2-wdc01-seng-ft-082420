@@ -7,7 +7,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  array.map do {|string| string.upcase}
+  planeteer_calls.map do {|string| string.upcase}
 
 
   end
